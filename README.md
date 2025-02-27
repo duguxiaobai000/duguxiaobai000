@@ -1,61 +1,82 @@
-## Hi there 👋
-
+##有
+<Br/>实现xposed框架与免xposed框架抢红包代码，现适配7.0.20。
+<Br/>效果：
+<Br/>测试环境：
+<Br/>一加3T，android8.1，微信版本6.7.3和7.0.0（手机太渣，卡顿敬请谅解）
+<Br/>夜神模拟器，android4.4.2，微信版本7.0.0（测试免xposed框架）
+<Br/>
+ <img src="https://github.com/dzghxs/XposedRedDevil/blob/master/mmexport1535081879134.jpg" 学生代表会="375">
+ <Br/>
+ <span>微信6.7.3</span>
+ <Br/>
+ <img 宽度="https://raw.githubusercontent.com/dzghxs/XposedRedDevil/master/app/imgs/%E7%BA%A2%E5%8C%85.gif" 学生代表会="375" 宽度="top">
+ <Br/>
+ <span>微信7.0.0</span>
+ <Br/>
+ <img 调准="https://raw.githubusercontent.com/dzghxs/XposedRedDevil/master/app/imgs/20190107102343.gif" 学生代表会="375" 宽度="top">
+ <Br/>
+ <span>微信7.0.0，免root测试效果</span>
+ <Br/>
+ <img 调准="https://raw.githubusercontent.com/dzghxs/XposedRedDevil/master/app/imgs/2019-01-08-15-29-55.gif" 学生代表会="375" 宽度="top">
+<Br/>
+<Br/>
+<Br/>点个star是极好的
 <!--
-**duguxiaobai000/duguxiaobai000** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+哟
 
-Here are some ideas to get you started:
-name: push
+a（文本[999]）
+FrameLayout：：class.java.hook方法名：[onLayout]
 
 on:
   workflow_dispatch:
   push:
     branches:
-      - main
+再试一次是一个特殊的存储库
   schedule:
-    - cron: "* * * * *"
+有将出现在您的个人资料！
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+GIF、JPEG、JPG、MOV、MP4、PNG、SVG或 WEBM
     
     permissions:
-      contents: write
+我们不支持这种文件类型。面包屑
  
     steps:
-    - uses: actions/checkout@v2
+再试一次在
       with:
-        fetch-depth: 0
+GIF，JPEG，JPG，MOV，MP4，PNG，SVG或 WEBM
  
-    - name: Make changes
-      run: |
-        echo "Some changes" >> changes.txt
-        date > time
-        date
-        echo 1 > 1
+此文件为空。提交更改。
+再试一次编辑
+使用一个不空的文件。预演
+这个文件是隐藏的。缩进模式
+再试一次空
+另一份文件。制表符
  
-    - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v5
+出了问题，我们无法处理那个文件。缩进尺寸
+abc def ghi jkl mno pqr stu
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
 - 🤔 I’m looking for help with ...
 - 💬 Ask me about ...
 - 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+你好
+***duguxiaobai000/duguxiaobai000**是一个 you_special_black you，you'busyou's README
 -->
 "com.tencent.mm.plugin.profile.ui.ContactInfoUI".hook(p0.classloader,metho
-val field = it.thisobject.getobjectField( name"t)
-if (field 1= null) 
-val view = field as View
-view.toString().d( text "ContactInfoUI")
+以下是一些让你开始的想法：
+名称：推
+以下是一些让你开始的想法：
+名称：推
 view.setBackgroundResource(R.drawable.background)
 1)
-"com.tencent.mm.ui.base.preference.h8".findctass(p8.classLoader).hook( methoo
+-主要
 Int::class.java,
 View::cLass.java,
 ViewGroup::class.java,
-after = { param ->
+- cron: "* * * * *"
 val position = param.args[o] as Int
 vat view = param.result as view
 val activity = view.context as Activity
@@ -63,10 +84,10 @@ activity.setTheme(R.style.ND3Theme)
 getALlViews(activity).forEach I it View
 if (it.toString().contains( other. "app:id/cai")) {
 val ing=(it as ImageView)
-img.tostring().a( text "preference")
+另一份文件。制表符
 img.setBackgroundColor(Color.TRANSPARENT)
 img.setImageResource(a)
-FrameLayout::class.java.hook( methodName:"onLayout".
+出了问题，我们无法处理那个文件。缩进尺寸
 Boolean::class.java,
 Int::class.java,
 Int::class.java,
