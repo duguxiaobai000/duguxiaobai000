@@ -1,4 +1,38 @@
-##有
+#{
+  key: 3,
+  name: '看视频拿奖励',
+  enable: false,
+  activityIds: [
+    'com.qidian.QDReader.ui.activity.QDBrowserActivity'
+  ],
+  rules: [
+    {
+      key: 0,
+      name: '看视频',
+      matches: [
+        '[text="看视频"]'
+      ],
+      snapshotUrls: [
+        'https://i.gkd.li/i/18999656'
+      ]
+    },
+    {
+      key: 1,
+      name: '知道了',
+      preKeys: [
+        0
+      ],
+      matches: [
+        '@TextView < View <4 View < View <2 WebView < WebView < FrameLayout < [vid="webViewContainer"]'
+      ],
+      fastQuery: true,
+      resetMatch: 'activity',
+      snapshotUrls: [
+        'https://i.gkd.li/i/18328876'
+      ]
+    }
+  ]
+}有
 <Br/>实现xposed框架与免xposed框架抢红包代码，现适配7.0.20。
 <Br/>效果：
 <Br/>测试环境：
