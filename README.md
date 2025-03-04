@@ -1,4 +1,44 @@
 #{
+  id: 'com.qidian.QDReader',
+  name: '起点读书',
+  groups: [
+  {
+    key: 3,
+    name: '看视频拿奖励',
+    enable: false,
+    activityIds: [
+      'com.qidian.QDReader.ui.activity.QDBrowserActivity'
+    ],
+    rules: [
+      {
+        key: 0,
+        name: '看视频',
+        matches: [
+          '[text="看视频"]'
+        ],
+        snapshotUrls: [
+          'https://i.gkd.li/i/18999656'
+        ]
+      },
+      {
+        key: 1,
+        name: '知道了',
+        preKeys: [
+          0
+        ],
+        matches: [
+          '@TextView < View <4 View < View <2 WebView < WebView < FrameLayout < [vid="webViewContainer"]'
+        ],
+        fastQuery: true,
+        resetMatch: 'activity',
+        snapshotUrls: [
+          'https://i.gkd.li/i/18328876'
+        ]
+      }
+    ]
+  }
+ ]
+}
   key: 3,
   name: '看视频拿奖励',
   enable: false,
